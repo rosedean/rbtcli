@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npm install -g rbtcli-cli
+npm install -g rbtcli
 ```
 
 ## 使用

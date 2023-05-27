@@ -65,7 +65,7 @@ module.exports = {
             decompress(TMP_DOWNLOAD_PATH, TMP_UNZIP_FOLDER).then(() => {
                 showInfoText('Done extracting.')
                 _fs.readdir(TMP_UNZIP_FOLDER, (err, files) => {
-                    fs.moveSync(path.join(TMP_UNZIP_FOLDER, files[0]), savePath); // 重命名为指定名
+                    fs.moveSync(path.join(TMP_UNZIP_FOLDER, files[0]), savePath,{ overwrite: true }); // 重命名为指定名
                     fs.unlinkSync(TMP_DOWNLOAD_PATH); // 删除下载的压缩包
                     cb && cb();
                 })

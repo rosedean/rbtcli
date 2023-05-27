@@ -1,6 +1,6 @@
 {
   "name": "rbtcli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "融版通命令行工具，帮助开发人员快速创建融版通项目工程",
   "scripts": {},
   "author": "rosedean@126.com",

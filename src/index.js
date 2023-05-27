@@ -42,7 +42,7 @@ var args = yargs
     })
     .command(
         {
-        command: "update <name>",
+        command: "update",
         desc: "update a rbt_base_frame.",
         builder: {},
         handler: function(argv) {

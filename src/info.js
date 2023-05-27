@@ -110,8 +110,8 @@ module.exports = {
         });
     },
     //下载zipball_url内容
-    downloadZipball(zipball_url, projectName, callback){
-        util.downloadAndUnzip(zipball_url, projectName, callback);
+    downloadZipball(zipball_url, projectName, callback,nocheck){
+        util.downloadAndUnzip(zipball_url, projectName, callback,nocheck);
     },
     //修改项目的信息
     editProjectInfo(project){

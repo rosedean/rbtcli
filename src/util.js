@@ -51,8 +51,8 @@ module.exports = {
      * @param {string} savePath
      * @param {Function} cb 接收参数 error
      */
-    downloadAndUnzip(url, savePath, cb) {
-        if(fs.existsSync(savePath)){
+    downloadAndUnzip(url, savePath, cb,nocheck) {
+        if(fs.existsSync(savePath) && !nocheck){
             showErrorText(`File ${savePath} already exist.`);
             return;
         }

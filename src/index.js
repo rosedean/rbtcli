@@ -42,7 +42,7 @@ var args = yargs
     })
     .command(
         {
-        command: "update",
+        command: "update <name>",
         desc: "update a rbt_base_frame.",
         builder: {},
         handler: function(argv) {
@@ -63,7 +63,7 @@ var args = yargs
                             });
                                 //5.下载zip_ball，并复制到目标位置
                                 info.downloadZipball(tag.zipUrl, projectName, () => {
-                            })
+                            },true)
                         })
                     })
                 })

@@ -11,10 +11,10 @@ npm install -g bingolink-cli
 ## 使用
 
 ```bash
-bingolink -v // 查看当前cli版本
+rbtcli -v // 查看当前cli版本
 
-bingolink -h // 命令帮助信息
+rbtcli -h // 命令帮助信息
 
-bingolink create <projectName> // 创建bingolink的工程模板，可以指定模板类型及其版本
+rbtcli create <projectName> // 创建融版通的工程模板，可以指定模板类型及其版本
 
 ```

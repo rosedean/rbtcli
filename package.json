@@ -6,7 +6,7 @@
   "author": "rosedean@126.com",
   "license": "Apache 2.0",
   "bin": {
-    "bingolink": "./src/index.js"
+    "rbtcli": "./src/index.js"
   },
   "repository": {
     "type": "git",

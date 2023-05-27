@@ -42,7 +42,7 @@ var args = yargs
     .version() // Use package.json's version
     .help()
     .alias({
-        "h": "help",
+        "h": "需要帮助，请联系张国华18600890440 ",
         "v": "version"
     })
     .strict(true)
